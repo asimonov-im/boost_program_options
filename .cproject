@@ -24,6 +24,7 @@
 					<folderInfo id="com.qnx.qcc.configuration.sharedLib.debug.1945792016." name="/" resourcePath="">
 						<toolChain id="com.qnx.qcc.toolChain.sharedLib.debug.313415833" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
 							<option id="com.qnx.qcc.option.cpu.1845665272" name="Target CPU:" superClass="com.qnx.qcc.option.cpu" value="com.qnx.qcc.option.gen.cpu.armle-v7" valueType="enumerated"/>
+							<option id="com.qnx.qcc.option.runtime.1596570775" superClass="com.qnx.qcc.option.runtime" value="com.qnx.qcc.option.gen.runtime.c++._gpp" valueType="enumerated"/>
 							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.1753577205" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
 							<builder buildPath="${workspace_loc:/boost_program_options/Device-Debug}" id="com.qnx.nto.1348260119" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="com.qnx.nto"/>
 							<tool id="com.qnx.qcc.tool.compiler.463116157" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
@@ -488,4 +489,5 @@
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+	<storageModule moduleId="refreshScope"/>
 </cproject>
